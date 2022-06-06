@@ -6,8 +6,8 @@ devolverá:
 2-Cantidad de mujeres menores de 30 años.
 3-Cantidad de usuarios con el nombre ’Juan’*/
 
-let nombre=0;
-let apellido=0;
+let nombre=" ";
+let apellido=" ";
 let edad=0;
 let contE=0;
 let numE=0;

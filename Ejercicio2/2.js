@@ -11,14 +11,14 @@ let legajo, nomb, apell;
 let sueldo=0;
 let suelM=parseInt(29000);
 let contS=0, contP=0, sumaS=0;
-let sueldoM=parseInt(1000000)
+let sueldoM=parseFloat(1000000)
 let legajoM, nombM, apellM;
 
 for(let i=0; i<90; i++){
     legajo=prompt("Ingresar nº de legajo:");
     nomb=prompt("Ingresar nombre:");
     apell=prompt("Ingresar apellido:");
-    sueldo=parseInt(prompt("Sueldo:"));
+    sueldo=parseFloat(prompt("Sueldo:"));
     if(sueldo<sueldoM){
       sueldoM=sueldo;
       legajoM=legajo;
